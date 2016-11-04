@@ -1,0 +1,13 @@
+"13026"	"Homework 1.7 and 1.8 graded incorrectly"	"cs101 homework grading"	"100004891"	"<p>I believe my answers for 1.7 and 1.8 were graded incorrectly. Probably because I still have some error checking code in there.</p>
+<p>My answers<br>
+1.7</p>
+<pre><code>poo ='poo'
+print poo.find('hoo')
+print text.find('hoo')
+</code></pre>
+<p>1.8</p>
+<pre><code>poo = 'zip poo'
+print poo.find('zip',text.find('zip')+1)
+print text.find('zip',text.find('zip')+1)
+</code></pre>
+<p>Cheers</p>"	"question"	"\N"	"\N"	"2012-03-01 13:04:35.125919+00"	"0"	""	"41873"	"100008283"	"2012-03-01 13:12:23.631108+00"	"16731"	"\N"	"\N"	"118"	"f"

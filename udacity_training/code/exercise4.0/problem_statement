@@ -1,0 +1,7 @@
+From forum_node.tsv, write a Mapreduce program that creates an index of all words that can be found in the body of a forum post and node id they can be found in.
+
+Do not parse the HTML. Just plit the text on all whitepace as well as the folloowing characters: /.,!?:;\"()<>[]#$=-
+
+How many times was the word "fantastic" used on forums?:
+
+List of comma separated nodes the word "fantastically" can be found in (Please list the nodes in ascending order i.e 1,2,3,4,5):
