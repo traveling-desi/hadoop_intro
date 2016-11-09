@@ -1,0 +1,10 @@
+please cat these files before running the mapreduce program
+
+
+-rw-r--r--  1 nikhil  staff  89316028 Nov  9 12:54 access_logaa
+-rw-r--r--  1 nikhil  staff  89821714 Nov  9 12:55 access_logab
+-rw-r--r--  1 nikhil  staff  91262920 Nov  9 12:55 access_logac
+-rw-r--r--  1 nikhil  staff  90526067 Nov  9 12:55 access_logad
+-rw-r--r--  1 nikhil  staff  90223604 Nov  9 12:55 access_logae
+-rw-r--r--  1 nikhil  staff  53791199 Nov  9 12:55 access_logaf
+

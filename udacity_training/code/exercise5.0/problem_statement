@@ -1,0 +1,6 @@
+From purchases.txt, write a mapreduce program that processes the records and outputs the mean (average) of sales for each weekday.
+
+You can find weekday from the date by using the built-in python funcationality. See the exact code in Instructor comments.
+
+
+What is the mean value of Sales on Sunday? : 249.946443251

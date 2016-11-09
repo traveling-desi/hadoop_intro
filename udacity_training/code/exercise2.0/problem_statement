@@ -1,1 +1,4 @@
 From access_log, write a MapReduce program which will display the number of hits for each different file on the web site.
+
+How many hitts were made to the page /assets/js/the-associates.js : 2456
+

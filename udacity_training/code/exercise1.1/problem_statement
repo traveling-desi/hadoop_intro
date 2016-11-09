@@ -1,2 +1,19 @@
 From purchases.txt, Find the monetary value for the highest individual sale for each seprate store.
 
+What are the values for the following stores?
+
+
+Reno: 499.99
+Toledo: 499.98
+Chandler: 499.98
+
+
+What is hte total number of sales and the total sales value from all the stores?
+
+Assume there is only one reducer.
+
+Number of Sales: 4138476
+
+Total Value of Sales: 1034457953.26
+
+## Change the mapper/reducer program appropriately to answer the questions.

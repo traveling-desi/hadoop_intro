@@ -2,6 +2,6 @@ From forum_node.tsv, write a Mapreduce program that creates an index of all word
 
 Do not parse the HTML. Just plit the text on all whitepace as well as the folloowing characters: /.,!?:;\"()<>[]#$=-
 
-How many times was the word "fantastic" used on forums?:
+How many times was the word "fantastic" used on forums?: 345
 
-List of comma separated nodes the word "fantastically" can be found in (Please list the nodes in ascending order i.e 1,2,3,4,5):
+List of comma separated nodes the word "fantastically" can be found in (Please list the nodes in ascending order i.e 1,2,3,4,5): 17583, 1007765, 1025821, 7004477, 9006895

@@ -1,0 +1,116 @@
+Students and Posting Time on Forums
+We have a lot of passionate students that bring a lot of value to forums. Forums also sometimes need a watchful eye on them, to make sure that posts are tagged in a way that helps to find them, that the tone on forums stays positive, and in general - they need people who can perform some management tasks - forum moderators. These are usually chosen from students who already have shown that they are active and helpful forum participants.
+
+Our students come from all around the world, so we need to know both at what times of day the activity is the highest, and to know which of the students are active at that time.
+
+In this exercise your task is to find for each student what is the hour during which the student has posted the most posts. Output from reducers should be:
+
+author_id    hour
+For example:
+
+13431511\t13
+54525254141\t21
+
+if there is a tie: there are multiple hours during which a student has posted a maximum number of posts, please print the student-hour pairs on separate lines. The order in which these lines appear in your output does not matter.
+
+You can ignore the time-zone offset for all times - for example in the following line: "2012-02-25 08:11:01.623548+00" - you can ignore the +00 offset.
+
+In order to find the hour posted, please use the date_added field and NOT the last_activity_at field.
+
+To make sure your code is running properly, we have put together a smaller data set and set of expected outputs for you to use to check your work. Please click here to access the instructions to use it. (data/student_test_posts.csv)
+
+
+
+Expected Output for Student Times
+Below you will find the output expected for the Student Times exercise when using the test data set provided. The output of your code should include all of the rows below, aside from the columns headers, but the order of the rows may be switched around.
+
+Please note that the test data was modified very slightly on May 22, 2014, so please re-download the dataset if you have an older version.
+
+Student ID |	Hour
+100000005	1
+100000066	1
+100000066	5
+100002460	12
+100003192	8
+100003268	15
+100004467	12
+100004467	20
+100004819	4
+100005156	17
+100007808	12
+100008254	22
+100010128	14
+100012200	5
+100019875	5
+100020526	14
+100071170	12
+
+
+Expected Output for Post and Answer Length
+Below you will find the output expected for the Post and Answer Length exercise when using the test data provided. The output of your code should include all of the rows below, aside from the columns headers, but the order of the rows may be switched around.
+
+Question Node ID |	Question Length |	Average Answer Length
+111	35	0
+15084	237	0
+2	145	0
+262	50	0
+26454	101	0
+3778	69	164.0
+6011204	2651	188.5
+6011936	347	442.5
+6012754	369	414.0
+6015491	170	189.0
+66193	60	208.0
+7185	86	0
+
+
+Expected Output for Top Tags
+Below you will find the output expected for the Top Tags exercise when using the test data set provided. The output of your code should include all of the rows below, aside from the columns headers. The order of the rows does matter for this question. Tags that tie for the same number of counts can be switched with one another, but the list as a whole needs to show tags starting with the highest count and descending. 
+
+The first set of results is what your code should produce if you count tags from questions, answers, and comments. The second set shows what you should get if you only count tags from questions. Both methods will meet specifications for the Final Project. 
+
+Tags from questions, answers and comments:
+
+Tag	Counts
+cs253	12
+cs101	12
+discussion	5
+welcome	3
+homework	3
+issues	3
+meta	2
+nationalities	2
+jobs	2
+lessons	2
+Tags from questions only:
+
+Tag	Counts
+cs101	8
+cs253	5
+discussion	5
+issues	3
+welcome	3
+homework	2
+jobs	2
+lessons	2
+meta	2
+nationalities	2
+
+
+Expected Output for Study Groups
+Below you will find the output expected for the Study Groups exercise when using the test data provided. The output of your code should include all of the rows below, aside from the columns headers, but the order of the rows may be switched around.
+
+Question Node ID |	Student IDs
+111	[100000066]
+15084	[100004819]
+2	[100000005]
+262	[100004819]
+26454	[100003192]
+3778	[100000066, 100008254]
+6011204	[100010128, 100020526, 100071170]
+6011936	[100004819, 100019875, 100071170]
+6012754	[100004819, 100012200]
+6015491	[100004467, 100005156, 100071170]
+66193	[100002460, 100004467, 100007808, 100071170]
+7185	[100003268]
+

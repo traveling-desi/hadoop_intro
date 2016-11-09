@@ -2,3 +2,7 @@ From access_log, Find the most popular file on the website: that is the file who
 
 IMPORTANT: Some pathnames in the log begin with "http://www.the-associates.co.uk". Be sure to the remove the portion "http://www.the-associates.co.uk" from pathnames in your mapper so that all occurences of a file are counted together.
 
+Most popular's file's pathname : /assets/css/combined.css
+
+Number of occurences: 117352
+
